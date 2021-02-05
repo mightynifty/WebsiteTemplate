@@ -1,0 +1,56 @@
+/*---------Footer----------*/
+#footerLinks
+{
+    background-color: rgba(11,19,34,255);
+    background-size:cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+}
+#footerLinks h1
+{
+    text-align: center;
+    color: #efefef !important;
+}
+#footerLinks h1::after
+{
+    content: '';
+    background: #efefef;
+    display:block;
+    height: 3px;
+    width: 170px;
+}
+.footerLinks
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+}
+.footerLinks .col-md-3:hover
+{
+    background: #fff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.fa-youtube-play
+{
+    color: #FF0000;
+}
+.fa-twitter
+{
+    color: #1DA1F2;
+}
+.fa-twitch
+{
+    color: #6441a5;
+}
+.fa
+{
+    transform: translateY(-20%);
+}
