@@ -1,6 +1,8 @@
 /*---------Footer----------*/
 #footerLinks
 {
+    position:relative;
+    bottom: 0;
     background-color: rgba(11,19,34,255);
     background-size:cover;
     background-position: center;
@@ -55,6 +57,10 @@
 .fa-twitch
 {
     color: #6441a5;
+}
+.fa-envelope
+{
+    color: #fff;
 }
 .fa
 {
