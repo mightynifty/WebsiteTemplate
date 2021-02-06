@@ -6,6 +6,12 @@
     background-position: center;
     color: #efefef !important;
     background-attachment: fixed;
+    width: 100%;
+    margin: 0px;
+}
+.row
+{
+    margin: 0px;
 }
 #footerLinks h1
 {
@@ -22,7 +28,7 @@
 }
 .footerLinks
 {
-    margin-top: 40px;
+    width: 100%;
 }
 .icon
 {

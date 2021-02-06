@@ -12,10 +12,10 @@
             crossorigin="anonymous">
         </script>
         <script> 
-        $(function(){
-        $("#header").load("GlobalAssets/headernav.html");
-        $("#footer").load("GlobalAssets/footer.html");
-        });
+            $(function(){
+                $("#header").load("GlobalAssets/headernav.html");
+                $("#footer").load("GlobalAssets/footer.html");
+            });
         </script>
     </head>
     <body>
@@ -23,71 +23,108 @@
         <div id="body-bg">
             <div id="body-container">
                 <!-----Slider----->
-                <div id="slider">
-                    <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-bs-target="#headerSlider" data-bs-slide-to="0" class="active"></li>
-                            <li data-bs-target="#headerSlider" data-bs-slide-to="1"></li>
-                            <li data-bs-target="#headerSlider" data-bs-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/Carousel.png" class="d-block img-fluid" alt="...">
-                                <div class="carousel-caption">
-                                    <h5>How to fuuuuuck</h5>
+                <div class="row" style="padding-top: 10px;">
+                    <div class="col-md-9">
+                        <div id="slider">
+                            <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-bs-target="#headerSlider" data-bs-slide-to="0" class="active"></li>
+                                    <li data-bs-target="#headerSlider" data-bs-slide-to="1"></li>
+                                    <li data-bs-target="#headerSlider" data-bs-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <a href="Merch.html">
+                                            <img src="img/thumbnailsizetemplate.png" class="d-block img-fluid" alt="...">
+                                            <div class="carousel-caption-holder">
+                                                <div class="carousel-caption">
+                                                    <h5>ARTICLE 1 TITLE</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="Merch.html">
+                                            <img src="img/thumbnailsizetemplate.png" class="d-block img-fluid" alt="...">
+                                            <div class="carousel-caption-holder">
+                                                <div class="carousel-caption">
+                                                    <h5>ARTICLE 2 TITLE</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <a href="Merch.html">
+                                            <img src="img/thumbnailsizetemplate.png" class="d-block img-fluid" alt="...">
+                                            <div class="carousel-caption-holder">
+                                                <div class="carousel-caption">
+                                                    <h5>ARTICLE 3 TITLE</h5>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/Carousel.png" class="d-block img-fluid" alt="...">
-                                <div class="carousel-caption">
-                                    <h5>How to liiiiiick</h5>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/Carousel.png" class="d-block img-fluid" alt="...">
-                                <div class="carousel-caption">
-                                    <h5>How to cuuuuum</h5>
-                                </div>
+                                <a class="carousel-control-prev" href="#headerSlider" role="button" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#headerSlider" role="button" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </a>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#headerSlider" role="button" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#headerSlider" role="button" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/thumbnailsizetemplate.png" class="adimg">
                     </div>
                 </div>
                 <!------New Posts------->
-                <section id="about">
+                <section id="more">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2>New Posts</h2>
-                                <div class="newpost-content">
-                                    
-                                </div>
-                                <button type="button" class="btn btn-primary">Read More >></button>
+                                <h2>More New Posts</h2>
                             </div>
-                            <div class="col-md-12 skills-bar">
-                                <img src="img/thumbnailsizetemplate.png" class="homethumb"/>
-                                <p>Adobe Photoshop</p>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 80%">80%</div>
+                            <!-- NEW ROW TEMPLATE:
+                            <div class="row post">
+                                <div class="col-md-4">
+                                    <img src="img/thumbnailsizetemplate.png" class="homethumb">
                                 </div>
-                                <p>Adobe Premiere</p>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 85%">85%</div>
+                                <div class="col-md-8">
+                                    <h3>Ranking Every Game I Played in 2020</h3>
+                                    <p>Description</p>
+                                    <button type="button" class="btn btn-primary">Read More >></button>
                                 </div>
-                                <p>Adobe Dreamweaver</p>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 75%">75%</div>
+                            </div>-->
+                            <div class="row post">
+                                <div class="col-md-4">
+                                    <img src="img/thumbnailsizetemplate.png" class="homethumb">
                                 </div>
-                                <p>Adobe FUUUUUCK</p>
-                                <div class="progress">
-                                    <div class="progress-bar" style="width: 50%">50%</div>
+                                <div class="col-md-8">
+                                    <h3>Ranking Every Game I Played in 2020</h3>
+                                    <p>From worst to best, I discuss all 40 games I played in 2020</p>
+                                    <button type="button" class="btn btn-primary">Read More >></button>
+                                </div>
+                            </div>
+                            <div class="row post">
+                                <div class="col-md-4">
+                                    <img src="img/thumbnailsizetemplate.png" class="homethumb">
+                                </div>
+                                <div class="col-md-8">
+                                    <h3>Title</h3>
+                                    <p>Description</p>
+                                    <button type="button" class="btn btn-primary">Read More >></button>
+                                </div>
+                            </div>
+                            <div class="row post">
+                                <div class="col-md-4">
+                                    <img src="img/thumbnailsizetemplate.png" class="homethumb">
+                                </div>
+                                <div class="col-md-8">
+                                    <h3>Title</h3>
+                                    <p>Description</p>
+                                    <button type="button" class="btn btn-primary">Read More >></button>
                                 </div>
                             </div>
                         </div>
