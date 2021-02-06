@@ -18,6 +18,7 @@
         $("#footer").load("GlobalAssets/footer.html");
         });
         </script>
+        <link rel="stylesheet" href="tablesort.css">
     </head>
     <body>
         <div id="header"></div>
@@ -25,11 +26,59 @@
             <div id="body-container">
                 <!-----UNIQUE PAGE ATTRIBUTES GO HERE----->
                 
-                
+                <table class="table table-sortable">
+                    <colgroup>
+                        <col class="thumb"/>
+                        <col class="game"/>
+                        <col class="date"/>
+                        <col class="date"/>
+                        <col class="score"/>
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th colspan="2">Game</th>
+                            <th>Release Date</th>
+                            <th>Review Date</th>
+                            <th>Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="img/thumbnailsizetemplate.png" class="thumb-img"></td>
+                            <td><h4>Dyberpunk 2077</h4></td>
+                            <td>4/1/2018</td>
+                            <td>5/2/2018</td>
+                            <td><img src="img/scores/8.png" class="score-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/thumbnailsizetemplate.png" class="thumb-img"></td>
+                            <td><h4>Cyberpunk 2077</h4>
+                                <p>Description of this game is very bad and glitch up the butthole oh no it bad very bad uh oh</p></td>
+                            <td>3/23/2017</td>
+                            <td>4/20/2017</td>
+                            <td><img src="img/scores/6.png" class="score-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/thumbnailsizetemplate.png" class="thumb-img"></td>
+                            <td><h4>Ayberpunk 2077</h4></td>
+                            <td>10/28/2017</td>
+                            <td>11/12/2017</td>
+                            <td><img src="img/scores/9.5.png" class="score-img"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/thumbnailsizetemplate.png" class="thumb-img"></td>
+                            <td><h4>Byberpunk 2077</h4></td>
+                            <td>12/16/2020</td>
+                            <td>12/30/2020</td>
+                            <td><img src="img/scores/1.5.png" class="score-img"></td>
+                        </tr>
+                    </tbody>
+                </table>
 
                 <!-----PAGE END-->
                 <div id="footer"></div>
             </div>
         </div>
+        <script src="tablesort.js"></script>
     </body>
 </html>
