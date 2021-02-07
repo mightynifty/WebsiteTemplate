@@ -1,0 +1,82 @@
+/*---------Title----------*/
+.game-title
+{
+    position: relative;
+    left: 5%;
+    width:80%;
+    padding:20px;
+}
+.game-title h1
+{
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+/*---------Video Embed----------*/
+.video-container
+{
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+}
+.video-container iframe
+{
+    margin: auto;
+    width: 60vw;
+    height: calc(60vw/1.77);
+}
+/*---------Review Content----------*/
+.review-block
+{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.review-parameters
+{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.advertisement
+{
+    float:right;
+    width: 20vw;
+    margin:20px;
+}
+
+/*---------Final Score----------*/
+.review-score
+{
+    overflow: auto;
+    background-color: rgba(11,19,34,255);
+    background-attachment: fixed;
+    width: 90%;
+    padding:10px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.score-box
+{
+    position:relative;
+}
+.score-box h1
+{
+    font-size: 2vw;
+    font-style: italic;
+    font-weight: bolder;
+    color: #fff;
+}
+.score-box h4
+{
+    font-size: 1.2vw;
+    color: #fff;
+}
+.score-box img
+{
+    float:right;
+    width: 10vw;
+    outline: 2px;
+    outline-color: #fff;
+}
