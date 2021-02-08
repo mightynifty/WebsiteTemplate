@@ -1,3 +1,7 @@
+h1
+{
+    color: rgba(11,19,34,255);
+}
 #body-container th
 { 
     font-size: 1.5vw;
@@ -8,12 +12,32 @@
 #body-container td
 { 
     text-align: center;
+    font-size: 1.5vw;
+}
+#body-container a
+{
+    color: rgba(11,19,34,255);
+    text-decoration: none;
+    font-weight: bolder;
+}
+#body-container a:hover
+{
+    color: rgba(11,19,34,255);
+    text-decoration: underline;
 }
 .table-container
 {
     padding: 30px;
 }
-#body-container img
+.thumb
 {
     width: 10vw;
+}
+.thumb-article
+{
+    width: 15vw;
+}
+.score
+{
+    width: 5vw;
 }

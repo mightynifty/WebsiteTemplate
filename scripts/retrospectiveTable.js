@@ -7,7 +7,7 @@ var myArray = [
     {'title':'God of War 3', 'published':new Date('11/10/1989'), 'released':new Date('11/09/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
     {'title':'God of War 2', 'published':new Date('11/10/1989'), 'released':new Date('11/12/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
     {'title':'God of War', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1982'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Cyberpunk 2077', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1982'), 'url':'/Reviews/Cyberpunk2077Review.html', 'thumb': '/img/thumbnails/CyberpunkThumb.jpg'},
+    //{'title':'TITLE', 'published':new Date('DATE'), 'released':new Date('DATE'), 'url':'URL', 'thumb': '/img/thumbnails/THUMB.png'},
 ]
 
 $('th').on('click', function(){
@@ -56,7 +56,7 @@ function buildTable(data){
     table.innerHTML = ''
     for (var i = 0; i < data.length; i++){
         var row = `<tr>
-                        <td><img src="${data[i].thumb}"></td>
+                        <td><a href="${data[i].url}"><img src="${data[i].thumb}" class="thumb"></a></td>
                         <td><a href="${data[i].url}">${data[i].title}</a></td>
                         <td>${formatDate(data[i].published)}</td>
                         <td>${formatDate(data[i].released)}</td>

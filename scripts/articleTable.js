@@ -56,7 +56,7 @@ function buildTable(data){
     table.innerHTML = ''
     for (var i = 0; i < data.length; i++){
         var row = `<tr>
-                        <td><img src="${data[i].thumb}"></td>
+                        <td><a href="${data[i].url}"><img src="${data[i].thumb}" class="thumb-article"></a></td>
                         <td><a href="${data[i].url}">${data[i].title}</a></td>
                         <td>${formatDate(data[i].published)}</td>
                   </tr>`
