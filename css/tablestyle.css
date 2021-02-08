@@ -9,6 +9,10 @@ h1
     color:#fff;
     background-color: rgba(11,19,34,255) !important;
 }
+#body-container th:hover
+{ 
+    cursor: pointer;
+}
 #body-container td
 { 
     text-align: center;
