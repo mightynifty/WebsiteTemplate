@@ -11,6 +11,16 @@
     font-size: 2.5vw;
     font-weight: bolder;
 }
+.spoiler-warning
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom:20px;
+    font-weight: bolder;
+    background-color: red;
+    color:white;
+}
 
 /*---------Video Embed----------*/
 .media-container
