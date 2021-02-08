@@ -1,13 +1,13 @@
 var myArray = [
-    {'title':'The Last of Us Part 2', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'The Last of Us', 'published':new Date('11/10/1989'), 'released':new Date('11/10/2002'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Jak 3', 'published':new Date('11/10/1989'), 'released':new Date('12/10/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Jak 2', 'published':new Date('11/10/1989'), 'released':new Date('02/10/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Jak and Daxter', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1980'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'God of War 3', 'published':new Date('11/10/1989'), 'released':new Date('11/09/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'God of War 2', 'published':new Date('11/10/1989'), 'released':new Date('11/12/1989'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'God of War', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1982'), 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    //{'title':'TITLE', 'published':new Date('DATE'), 'released':new Date('DATE'), 'url':'URL', 'thumb': '/img/thumbnails/THUMB.png'},
+    {'title':'The Last of Us Part 2', 'published':new Date('11/23/2020'), 'released':new Date('6/19/2020'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/LastOfUs2.png'},
+    {'title':'The Last of Us', 'published':new Date('10/26/2020'), 'released':new Date('6/14/2013'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/LastOfUs.png'},
+    {'title':'Jak 3', 'published':new Date('4/3/2020'), 'released':new Date('11/9/2004'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/Jak3.png'},
+    {'title':'Jak 2', 'published':new Date('2/5/2020'), 'released':new Date('10/14/2003'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/Jak2.png'},
+    {'title':'Jak and Daxter', 'published':new Date('2/13/2019'), 'released':new Date('2/3/2001'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/JakAndDaxter.png'},
+    {'title':'God of War 3', 'published':new Date('5/2/2018'), 'released':new Date('3/16/2010'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/GodOfWar3.png'},
+    {'title':'God of War 2', 'published':new Date('4/28/2018'), 'released':new Date('3/13/2007'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/GodOfWar2.png'},
+    {'title':'God of War', 'published':new Date('4/16/2018'), 'released':new Date('3/22/2005'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/retrospective/GodOfWar.png'},
+    //{'title':'TITLE', 'published':new Date('DATE'), 'released':new Date('DATE'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/THUMB.png'},
 ]
 
 $('th').on('click', function(){

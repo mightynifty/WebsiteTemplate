@@ -1,12 +1,12 @@
 var myArray = [
-    {'title':'The Last of Us Part 2', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1989'), 'score': 10, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'The Last of Us', 'published':new Date('11/10/1989'), 'released':new Date('11/10/2002'), 'score': 9, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Jak 3', 'published':new Date('11/10/1989'), 'released':new Date('12/10/1989'), 'score': 7.5, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Jak 2', 'published':new Date('11/10/1989'), 'released':new Date('02/10/1989'), 'score': 5.5, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'Jak and Daxter', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1980'), 'score': 9, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'God of War 3', 'published':new Date('11/10/1989'), 'released':new Date('11/09/1989'), 'score': 9, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'God of War 2', 'published':new Date('11/10/1989'), 'released':new Date('11/12/1989'), 'score': 9.5, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
-    {'title':'God of War', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1982'), 'score': 7, 'url':'', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'The Last of Us Part 2', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1989'), 'score': 10, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'The Last of Us', 'published':new Date('11/10/1989'), 'released':new Date('11/10/2002'), 'score': 9, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'Jak 3', 'published':new Date('11/10/1989'), 'released':new Date('12/10/1989'), 'score': 7.5, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'Jak 2', 'published':new Date('11/10/1989'), 'released':new Date('02/10/1989'), 'score': 5.5, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'Jak and Daxter', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1980'), 'score': 9, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'God of War 3', 'published':new Date('11/10/1989'), 'released':new Date('11/09/1989'), 'score': 9, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'God of War 2', 'published':new Date('11/10/1989'), 'released':new Date('11/12/1989'), 'score': 9.5, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
+    {'title':'God of War', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1982'), 'score': 7, 'url':'/Reviews/URL.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
     {'title':'Cyberpunk 2077', 'published':new Date('11/10/1989'), 'released':new Date('11/10/1982'), 'score': 2, 'url':'/Reviews/Cyberpunk2077Review.html', 'thumb': '/img/thumbnails/CyberpunkThumb.jpg'},
 ]
 
