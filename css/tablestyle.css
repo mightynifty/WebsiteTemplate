@@ -1,0 +1,19 @@
+#body-container th
+{ 
+    font-size: 1.5vw;
+    text-align: center;
+    color:#fff;
+    background-color: rgba(11,19,34,255) !important;
+}
+#body-container td
+{ 
+    text-align: center;
+}
+.table-container
+{
+    padding: 30px;
+}
+#body-container img
+{
+    width: 10vw;
+}
