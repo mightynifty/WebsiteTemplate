@@ -40,8 +40,9 @@ $('th').on('click', function(){
     var text = $(this).html()
     text = text.substring(0, text.length - 1)
 
-    if(column == 'title')
+    if(column == 'title' || column == 'type')
     {
+        console.log(column);
         if(order == 'desc'){
             $(this).data('order', "asc")
             myArray = myArray.sort((a,b) => a[column] > b[column] ? 1 : -1)

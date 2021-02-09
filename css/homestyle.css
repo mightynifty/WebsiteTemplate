@@ -24,7 +24,7 @@
 {
     color: #fff;
     font-size: 62px;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bolder;
 }
 .carousel-caption h5:hover
@@ -46,6 +46,14 @@
 .post
 {
     margin-bottom: 20px!important;
+}
+.post h3
+{
+    font-size: 32px;
+}
+.post p
+{
+    font-size: 18px;
 }
 #more .btn
 {
