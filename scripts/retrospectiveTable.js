@@ -1,12 +1,6 @@
 var myArray = [
     {'title':'The Last of Us Part 2', 'published':new Date('11/23/2020'), 'released':new Date('6/19/2020'), 'url':'/Retrospectives/LastOfUs2.html', 'thumb': '/img/thumbnails/retrospective/LastOfUs2.png'},
-    {'title':'The Last of Us', 'published':new Date('10/26/2020'), 'released':new Date('6/14/2013'), 'url':'/Retrospectives/LastOfUs.html', 'thumb': '/img/thumbnails/retrospective/LastOfUs.png'},
-    {'title':'Jak 3', 'published':new Date('4/3/2020'), 'released':new Date('11/9/2004'), 'url':'/Retrospectives/Jak3.html', 'thumb': '/img/thumbnails/retrospective/Jak3.png'},
-    {'title':'Jak 2', 'published':new Date('2/5/2020'), 'released':new Date('10/14/2003'), 'url':'/Retrospectives/Jak2.html', 'thumb': '/img/thumbnails/retrospective/Jak2.png'},
-    {'title':'Jak and Daxter', 'published':new Date('2/13/2019'), 'released':new Date('2/3/2001'), 'url':'/Retrospectives/JakAndDaxter.html', 'thumb': '/img/thumbnails/retrospective/JakAndDaxter.png'},
-    {'title':'God of War 3', 'published':new Date('5/2/2018'), 'released':new Date('3/16/2010'), 'url':'/Retrospectives/GodOfWar3.html', 'thumb': '/img/thumbnails/retrospective/GodOfWar3.png'},
-    {'title':'God of War 2', 'published':new Date('4/28/2018'), 'released':new Date('3/13/2007'), 'url':'/Retrospectives/GodOfWar2.html', 'thumb': '/img/thumbnails/retrospective/GodOfWar2.png'},
-    {'title':'God of War', 'published':new Date('4/16/2018'), 'released':new Date('3/22/2005'), 'url':'/Retrospectives/GodOfWar.html', 'thumb': '/img/thumbnails/retrospective/GodOfWar.png'},
+    {'title':'TITLE', 'published':new Date('1/1/2001'), 'released':new Date('1/1/2000'), 'url':'/Retrospectives/RETROSPECTIVETEMPLATE.html', 'thumb': '/img/thumbnails/thumbnailsizetemplate.png'},
     //{'title':'TITLE', 'published':new Date('DATE'), 'released':new Date('DATE'), 'url':'/Retrospectives/URL.html', 'thumb': '/img/thumbnails/THUMB.png'},
 ]
 
